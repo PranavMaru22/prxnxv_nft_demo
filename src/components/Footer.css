@@ -1,0 +1,136 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Sora",sans-serif;
+    z-index: 5;
+    height:100vh;
+}
+
+.footer__bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(10,10,10,0.866);
+    width: 100%;
+    height: 50%;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.footer__bg__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    z-index: -1;
+}
+.footer__bg img {
+    width: 200px;
+}
+
+.footer__bg__text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    backdrop-filter: 10px;
+    color: white;
+    height: 30vh;
+}
+
+.footer__heading h1 {
+    font-size: 65px;
+    backdrop-filter:40px;
+    width: 450px;
+}
+
+.footer__btn {
+    padding: 1.1rem 2.9rem;
+    border-radius: 50px;
+    border: none;
+    font-family: "Sora",sans-serif;
+    outline: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer__btn:hover{
+    cursor: pointer;
+    transform: scale(0.94);
+    transition: all 500ms ease;
+}
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border-bottom: 2px solid gray;
+}
+
+.footer__main__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer__main__inner h1 {
+    font-family: "Akaya Telivigala", cursive;
+    font-size: 65px;
+    color: rgba(10,10,10,0.89);
+    margin-right: auto;
+    margin-left: 3.5rem;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-right: auto;
+}
+
+.footer__icon:hover {
+    transform: scale(1.07);
+    transition: all 0.2s ease;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 12rem;
+    margin-right: 6rem;
+    padding: 0.5rem 2rem;
+}
+
+
+.footer__grid p:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.footer__label {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    letter-spacing: -0.5px;
+}

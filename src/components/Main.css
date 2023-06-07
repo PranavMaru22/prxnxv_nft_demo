@@ -1,0 +1,107 @@
+.main__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__content {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    font-family: monospace;
+    margin: 6rem 13rem 6rem 2rem;
+    width: 300px;
+}
+
+.main__heading {
+    margin-bottom: -0.3rem;
+    font-size: 36px;
+    font-family: 'Sora', sans-serif;
+}
+span {
+    margin-top: -3.7rem;
+    font-size: 42px;
+    padding-left: 0.2rem;
+    font-family: 'Akaya Telivigala', cursive;
+}
+span .main__collect__1 {
+    color: rgb(215, 215, 7);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+}
+span .main__collect__2 {
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+span .main__collect__3 {
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.main__bored {
+    font-size: 16px;
+    margin-top: -0.05rem;
+    margin-left: 4px;
+    margin-bottom: 2rem;
+    font-family: 'Sora', sans-serif;
+}
+
+.gif__logo {
+    height: 30rem;
+    object-fit: contain;
+}
+
+
+.explore__btn {
+    background: #000;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.7rem 1.7rem;
+    font-family: monospace;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 16px;
+}
+
+.explore__btn:hover {
+    opacity: 1;
+}
+
+.home__logo {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 92%;
+    width: 7rem;
+    object-fit: contain;
+    height: 8rem;
+    cursor: pointer;
+    transform: rotate(1turn);
+    animation: 6s linear infinite reverse;
+}
+
+.down__arrow {
+    position: absolute;
+    width: 2.9rem;
+    height: 2.8rem;
+    object-fit: contain;
+    background: #000;
+    opacity: 0.9;
+    color: white;
+    padding: .4rem;
+    object-fit: contain;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 2.75rem;
+    left: 2.03rem;
+}
+
+.down__arrow:hover {
+    opacity: 1;
+}

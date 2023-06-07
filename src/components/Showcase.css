@@ -1,0 +1,147 @@
+.showcase__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(9,9,9,0.866);
+}
+
+@keyframes original {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.group__one {
+    display: flex;
+    margin: 3rem;
+    border-radius: 10px;
+    white-space: nowrap;
+    animation: original 15s linear infinite none;
+}
+
+.group__two {
+    display: flex;
+    margin: 3rem;
+    border-radius: 10px;
+    white-space: nowrap;
+    animation: original 15s linear infinite reverse;
+}
+
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1.3rem;
+    border: 1.8px solid white;
+    border-radius: 20px;
+    width: 13rem;
+    height: 18rem;
+}
+
+.card__container:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+.card__content {
+    display: flex;
+    flex: 25%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: inherit;
+    font-family: "Sora",sans-serif;
+    font-size: 12px;
+}
+
+.card__image {
+    background: white;
+    width: 13rem;
+    flex: 75%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.card__img {
+    flex: 75%;
+    height: 12rem;
+}
+
+.card__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 14px;
+    color: white;
+    font-weight: 600;
+}
+
+.card__one h3 {
+    color: rgb(236, 233, 233);
+    background: gray;
+    padding: 5px;
+    opacity: 0.9;
+    border: gray;
+    border-radius: 8px;
+}
+.card__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 14px;
+    font-weight: 600;
+}
+
+.card__one p, .card__two p {
+    margin-top: auto;
+    font-size: medium;
+    opacity: 0.8;
+}
+
+.card__one p:hover {
+    text-decoration: underline;
+    color: gray;
+    opacity: 1;
+}
+
+.card__two p:hover {
+    text-decoration: underline;
+    color: rgb(11, 131, 158);
+    opacity: 1;
+}
+
+.card__two h3 {
+    color: rgb(236, 233, 233);
+    background: gray;
+    padding: 5px;
+    opacity: 0.9;
+    border: gray;
+    letter-spacing: 1px;
+    border-radius: 8px;
+}
+
+.card__one h3:hover, .card__two h3:hover {
+    opacity: 1;
+}
+
+.eth__logo {
+    height: 1.2rem;
+    margin-top: -1rem;
+}
+
+
+.price__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
